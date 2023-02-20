@@ -1,0 +1,21 @@
+.header {
+    background-color: $dark-blue;
+    margin-bottom: 30px;
+
+    &__sitelog{
+        @include font(18px, 22px, $white-color, 'montserrat', 700);
+        padding: 24px 0;
+        display: block;
+        margin-right: auto;
+
+        @include media(768px){
+            @include font(24px, 29px, $white-color, 'montserrat', 700);
+        }
+    }
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+

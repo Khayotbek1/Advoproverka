@@ -1,0 +1,117 @@
+.hero{
+    &__text{
+        @include font(18px, 23px, $skyblue, 'Play', 700);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+
+        @include media (480px){
+            @include font(18px, 21px, $skyblue, 'Play', 700);
+        }
+
+        @include media (768px){
+            @include font(21px, 24px, $skyblue, 'Play', 700);
+        }
+
+        
+    }
+    &__title{
+        @include font(32px, 35px, $h1color, 'Play', 700);
+        margin-bottom: 2rem;
+
+        @include media (320px){
+            @include font(25px, 30px, $h1color, 'Play', 700);
+        }
+
+        @include media (768px){
+            @include font(42px, 46px, $h1color, 'Play', 700);
+        }
+    }
+    &__comfort{
+        display: flex;
+        margin-bottom: 20px;
+
+        @include media (768px){
+            margin-bottom: 40px;
+            width: 100%;
+            max-width: 354px;
+        }
+    }
+    &__comfort:not(:last-child){
+        margin-bottom: 10px;
+        
+        @include media (480px){
+            margin-bottom: 15px;
+        }
+        @include media (768px){
+            margin-bottom: 20px;
+        }
+
+    }
+    &__check{
+        margin-right: 5px;
+
+
+    }
+   
+    &__comfort__desc{
+        @include font(18px, 25px, $black);
+    }
+    &__btn{
+        display: inline-block;
+        padding: 15px;
+        min-width: 320px;
+
+        @include media(320px){
+            padding: 10px;
+            min-width: 250px;
+        }
+    }
+    &__btn:not(:last-child){
+        margin-bottom: 15px;
+    }
+    &__buttons{
+        text-align: center;
+        margin-bottom: 20px;
+
+        @include media (768px){
+            text-align: start;
+        }
+        
+    }
+
+    &__img{
+
+        @include media(320px){
+            width: 300px;
+            height: 220px;
+        }
+        @include media(480px){
+            margin-right: auto;
+            margin-left: auto;
+        }
+        @include media(768px){
+            width: 353px;
+            height: 269px;
+        }
+
+    }
+
+    &__inner{
+        
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+
+    @include media (768px){
+        flex-direction: row;
+        align-items: flex-end;
+    }
+}

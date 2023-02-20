@@ -1,0 +1,10 @@
+.btn{
+    background-color: $magenta;
+    @include font(16px, 18px, $white-color);
+    text-align: center;
+    border-radius: 5px;
+    transition: .3s;
+};
+.btn:hover{
+    background-color: #99002E;
+}
