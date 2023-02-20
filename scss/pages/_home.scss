@@ -80,6 +80,8 @@
     }
 
     &__img{
+        margin-right: auto;
+        margin-left: auto;
 
         @include media(320px){
             width: 300px;
@@ -96,9 +98,7 @@
 
     }
 
-    &__inner{
-        
-    }
+
 
     &__info{
         display: flex;

@@ -615,6 +615,10 @@ body {
     text-align: start;
   }
 }
+.hero__img {
+  margin-right: auto;
+  margin-left: auto;
+}
 @media (min-width: 320px) {
   .hero__img {
     width: 300px;
