@@ -610,6 +610,11 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
+@media (min-width: 320px) {
+  .hero__buttons {
+    margin-bottom: 25px;
+  }
+}
 @media (min-width: 768px) {
   .hero__buttons {
     text-align: start;
