@@ -1,5 +1,11 @@
 .sitenav{
     display: none;
+
+    @include media(1000px){ 
+        display: block;
+        margin-right: 55px;
+    }
+
     &__list{
         display: flex;
         align-items: center;
@@ -14,13 +20,6 @@
             display: none;
         }
     }
-
-    @include media(1000px){
-        display: block;
-        margin-right: 55px;
-    }
-
-    
 }
 
 .call{
@@ -32,7 +31,7 @@
         @include font(13px, 18px, $white-color);
         text-align: end;
         text-decoration: underline;
-    }
+    } 
     
     @include media(480px){
         display: flex;

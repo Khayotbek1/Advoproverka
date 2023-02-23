@@ -2,6 +2,16 @@
     background-color: $dark-blue;
     margin-bottom: 30px;
 
+    @include media(768px){
+        margin-bottom: 40px;
+    }
+    @include media(1000px){
+        margin-bottom: 80px;
+    }
+    @include media(1024px){
+        margin-bottom: 100px;
+    }
+
     &__sitelog{
         @include font(18px, 22px, $white-color, 'montserrat', 700);
         padding: 24px 0;
