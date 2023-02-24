@@ -1107,7 +1107,7 @@ body {
   position: absolute;
   width: 1px;
   height: 270px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.589);
   top: 5px;
   left: 14px;
 }
@@ -1115,7 +1115,7 @@ body {
   content: "";
   position: absolute;
   width: 1px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.589);
   top: 5px;
   left: 14px;
 }
