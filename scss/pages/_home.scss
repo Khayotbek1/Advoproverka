@@ -640,9 +640,9 @@
    &__inner2{
     display: flex;
     flex-direction: column;
-    @include media(480px){
+    @include media(320px){
         justify-content: center;
-        align-items: center;
+        text-align: center;
     }
    }
 
